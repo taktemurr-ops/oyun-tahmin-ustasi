@@ -1,0 +1,24 @@
+name: oyun_tahmin_ustasi
+description: "Tahmin Ustası – Bilgi Yarışması merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: c940d60fdcbb22f7f737de465f2ed0c89de3a6b7
+  bilgi_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/bilgi-motoru
+      ref: 5675ce076f8f3a1f5fa2210534f87917b4415ef3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
